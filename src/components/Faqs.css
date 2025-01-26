@@ -1,0 +1,44 @@
+#faqs {
+    background-color: #f8f9fa; /* Light background */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#faqs h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+#faqs .card {
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Light border for each card */
+}
+
+#faqs .card-header {
+    font-size: 1.25rem;
+    background-color: #007bff; /* Blue background for the question */
+    color: #fff;
+    cursor: pointer;
+}
+
+#faqs .card-header:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#faqs .card-body {
+    background-color: #f1f1f1; /* Light gray background for the answer */
+    color: #333;
+}
+
+#faqs .card-body p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#faqs .card-header h5 {
+    margin-bottom: 0; /* Remove margin for a cleaner look */
+}
+
+#faqs .card-body {
+    padding: 1.25rem;
+}

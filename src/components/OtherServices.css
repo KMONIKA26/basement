@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Top Section with fixed background */
+.service-header {
+    position: relative;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .service-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  }
+  
+  .service-page h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 50px;
+  }
+  
+  .service-page p {
+    font-size: 1.2rem;
+  }
+  
+  .service-page button {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+  
+  .service-page .btn-light {
+    background-color: #ffffff;
+    border: 2px solid #000;
+    color: #000;
+  }
+  
+  .service-page .btn-light:hover {
+    background-color: #f8f9fa;
+    border-color: #000;
+  }
+  
+  /* Service Cards */
+  .service-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .service-card h3 {
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Change background color on hover */
+  .service-card:hover h3 {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
+  
+  /* Optional: Add some spacing between the service cards */
+  .service-card + .service-card {
+    margin-top: 20px;
+  }
+  

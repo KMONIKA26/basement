@@ -1,0 +1,49 @@
+/* Hero Section */
+.pSection{
+    background-color:#F2F2F2!important
+}
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 70vh; /* Adjust as needed */
+    display: flex;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  
+  .btn-hero {
+    background-color: #8c9c66;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-hero:hover {
+    background-color: #6f7f4c;
+  }
+  
+  /* Personalized Spaces Section */
+  .video-wrapper video {
+    border-radius: 8px;
+    max-width: 100%;
+  }
+  
+  .video-wrapper p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

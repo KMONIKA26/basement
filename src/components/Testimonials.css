@@ -1,0 +1,32 @@
+#testimonials {
+    background-color: #fff !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#testimonials .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #F2F2F2;
+
+
+}
+
+#testimonials .card-body {
+    padding: 30px;
+}
+
+#testimonials .card-text {
+    font-style: italic;
+    color: #555;
+}
+
+#testimonials .card-title {
+    font-weight: bold;
+}
+
+#testimonials img {
+    border: 3px solid #ff9f00; /* Customize border color */
+}

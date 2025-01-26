@@ -1,0 +1,28 @@
+.hero-section {
+    position: relative;
+    height: 100vh; /* Full screen height */
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover; /* Ensures images cover the entire carousel container */
+    height: 100vh; /* Make images cover the full viewport height */
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+}

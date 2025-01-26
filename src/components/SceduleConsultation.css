@@ -1,0 +1,60 @@
+/* Hover effect for the first three images */
+.hover-down img {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-down:hover img {
+    transform: translateY(10px);
+  }
+  
+  /* Hover overlay effect for the next four images */
+  .hover-overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hover-overlay img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .hover-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+  }
+  
+  .hover-overlay:hover::after {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+  }
+  
+  .hover-overlay:hover img {
+    transform: scale(1.05); /* Optional zoom effect */
+  }
+  .hover-overlay .text-container {
+    position: relative;
+    bottom: 30px; /* Distance from the bottom */
+    left: 15px; /* Distance from the left */
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+  }  
+  /* Transparent Button Style */
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-transparent:hover {
+    background-color: white;
+    color: black;
+  }
+  
